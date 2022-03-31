@@ -2,14 +2,92 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .wrap {
     width: 20rem;
     height: 30rem;
-    background-color: powderblue;
+    background-color: rgb(193, 224, 228);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: .5rem solid rgb(130, 177, 183);
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.276);
 }
 .wrap #game-name{
-    text-align: center;
+    font-family: 'Permanent Marker', cursive;
     font-size: 1.7rem;
-    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    color: rgb(95, 156, 164); 
+}
+.wrap #result-area {
+    margin-bottom: 1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    padding: .4rem;
+    width: 17rem;
+    text-align: center;
+    border-radius: .3rem;
+    color: rgb(230, 150, 163);
+}
+.wrap #icon {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.wrap .result-box{
+    display: flex;
+    justify-content: center;
+}
+.wrap #chance-area {
+    padding-bottom: 3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.wrap #down-icon {
     padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: rgb(95, 156, 164);
+}
+.wrap .input-box {
+    padding-bottom: 3rem;
+}
+.wrap .input-box input {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.wrap .input-box button {
+    width: 4rem;
+    height: 2.3rem;
+    background-color: rgb(193, 224, 228);
+    border: .15rem solid rgb(95, 156, 164);
+    border-radius: .3rem;
+    color: rgb(95, 156, 164);
+    cursor: pointer;
+}
+.wrap .input-box button:hover{
+    background-color: rgb(95, 156, 164);
+    color: white;
+}
+.wrap #reset-btn {
+    width: 5rem;
+    height: 1.7rem;
+    background-color: rgb(232, 183, 191);
+    border: .15rem solid rgb(208, 126, 138);
+    border-radius: .15rem;
+    color: white;
+    cursor: pointer;
+}
+.wrap #reset-btn:hover {
+    background-color:rgb(208, 126, 138) ;
 }
