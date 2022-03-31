@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 20rem;
+    height: 30rem;
+    background-color: powderblue;
+}
+.wrap #game-name{
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
